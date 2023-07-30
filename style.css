@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-image: url(background6.jpg);
+    background-size: cover;
+}
+.box{
+    background-color:transparent;
+    position: absolute;
+    top:15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+p{
+    color:white;
+    text-align: center;
+    padding: 10px;
+}
+input{
+
+    background-color: transparent;
+    border: 2px transparent;
+    outline: 0;
+    padding: 30px;
+    font-weight: 900;
+    min-width: 350px;
+    margin: 20px;
+    cursor: text;
+    appearance: none;
+    background: rgba(126,126,126,0.1);
+    color: white;
+}
+input:hover{
+    opacity: 0.6;
+}
+.filde{
+    position: relative;
+}
+.login{
+    display: flex;
+    margin-left:30px ;
+}
+.btn{
+    padding:30px;
+    display: block;
+    justify-content: space-between;
+    margin-left: 25px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    max-width: 50px;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.btn_icon-fb{
+    background-image: url(fb.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.btn_icon-ins{
+    background-image: url(ins.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.btn_icon-twt{
+    background-image: url(twt.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.btn_icon-tt{
+    background-image: url(tt.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.btn_icon-login{
+    background-image:url(arrow\ right.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.submit button{
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    margin-top: 10px;
+}
+a:hover{
+    opacity: .8;
+}
+.grip{
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
